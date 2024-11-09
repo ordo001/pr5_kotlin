@@ -3,9 +3,9 @@ import kotlin.math.sqrt
 
 fun main(args: Array<String>) {
     print("Введите координаты первой точки (x;y) ")
-    val point1 = Point(readln().toInt(),readln().toInt())
+    val point1 = Point(readln().toDouble(),readln().toDouble())
     print("Введите координаты второй точки (x;y) ")
-    val point2 = Point(readln().toInt(),readln().toInt())
+    val point2 = Point(readln().toDouble(),readln().toDouble())
     distancePoints(point1,point2)
 
 }
