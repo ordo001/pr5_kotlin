@@ -12,5 +12,5 @@ fun main(args: Array<String>) {
 
     val circumcenter = triangle.centerOkr()
 
-    println("Центр описанной окружности: (${circumcenter.x}, ${circumcenter.y})")
+    println("Центр описанной окружности: ( " + circumcenter.x + circumcenter.y + " )")
 }
